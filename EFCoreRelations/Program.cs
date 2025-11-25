@@ -1,10 +1,19 @@
-﻿namespace EFCoreRelations
+﻿using EFCoreRelations.DataBaseContext;
+using EFCoreRelations.Models;
+using Microsoft.Identity.Client;
+
+namespace EFCoreRelations
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            using AirLineDbContext AppDbContext = new AirLineDbContext();
+            //a 
+
+        
+
+
         }
     }
 }
